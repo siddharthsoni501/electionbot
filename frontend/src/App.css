@@ -42,3 +42,38 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* AI Explorer Search Fix */
+.search-form {
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  width: 100%;
+  padding-right: 4rem;
+}
+
+.search-button {
+  position: absolute;
+  right: 8px;
+  background: var(--primary);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.search-button:hover {
+  transform: scale(1.05);
+}
